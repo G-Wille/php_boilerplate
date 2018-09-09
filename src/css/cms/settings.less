@@ -1,0 +1,48 @@
+
+.cms-settings {
+
+  .cms-setting, .cms-new-setting {
+    display: flex;
+    align-items: center;
+    background: white;
+    margin-bottom: 1rem;
+  }
+
+  p, input[type=text] {
+    padding: 2rem;
+    font-weight: 600;
+    color: @CMSBlack;
+    width: 45%;
+    border: none;
+    outline: none;
+    border-right: .2rem solid #E9EAEA;
+    font-size: 1.2rem;
+  }
+
+  .cms-setting-controls {
+    padding-left: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+
+    .cms-setting-change {
+      color: green;
+      margin-right: 2rem;
+      cursor: pointer;
+    }
+
+    .cms-setting-delete {
+      color: red;
+    }
+  }
+
+  .cms-setting-new-key {
+    padding: 2rem;
+    color: @CMSBlack;
+    cursor: pointer;
+    transition: all .3s ease;
+
+    &:hover {
+      color: @CMSAccentColor;
+    }
+  }
+}

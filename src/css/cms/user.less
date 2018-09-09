@@ -1,0 +1,34 @@
+.cms-reset-password {
+  background: white;
+  padding: 2rem;
+
+  form {
+    width: 100%;
+
+    input {
+      padding: 2rem;
+      border: none;
+      outline: none;
+    }
+
+    input[type=password] {
+      width: 80%;
+      font-size: 1.5rem;
+    }
+
+    input[type=submit] {
+      width: 19%;
+      cursor: pointer;
+      border: 1px solid @CMSAccentColor;
+      color: @CMSAccentColor;
+      transition: all .3s ease;
+      font-weight: 600;
+      text-transform: uppercase;
+
+      &:hover {
+        background: @CMSAccentColor;
+        color: white;
+      }
+    }
+  }
+}

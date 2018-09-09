@@ -1,0 +1,57 @@
+@import "navigation";
+@import "settings";
+@import "user";
+@import "content";
+@import "dashboard";
+
+@CMSAccentColor: #607BFB;
+@CMSBlack: #2B3034;
+
+.cms {
+  background: #F4F4F5;
+  min-height: 100vh;
+
+  font-family: Poppins, sans-serif;
+}
+
+.cms-content {
+  padding: 5rem;
+  min-height: calc(100vh - @cmsNavHeight);
+}
+
+.cms-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.cms-content-box {
+  width: 100%;
+}
+
+.cms-error-box {
+  background: red;
+}
+
+.cms-info-box {
+  background: green;
+}
+
+.cms-error-info-box {
+  position: absolute;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  padding: 1rem 5rem;
+
+  li {
+    padding: 1rem 0;
+    color: white;
+    list-style-type: disc;
+  }
+}

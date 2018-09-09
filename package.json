@@ -1,0 +1,44 @@
+{
+  "name": "php_boilerplate",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gert-Jan Wille",
+    "email": "hello@gert-janwille.com",
+    "url": "http://gert-janwille.com"
+  },
+  "scripts": {
+    "dev": "mamp ./src & npm run clean && NODE_ENV=development webpack-dev-server",
+    "serve": "ws -d ./dist -c -p 3000 -s index.html",
+    "clean": "rimraf ./dist",
+    "build": "npm run clean && NODE_ENV=production webpack -p"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "autoprefixer": "^9.1.3",
+    "babel-loader": "^8.0.2",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "extract-text-webpack-plugin": "^v4.0.0-alpha.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "mamp": "^0.0.7",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-config-htmls": "^1.0.1",
+    "webpack-config-utils": "^2.3.1",
+    "webpack-dev-server": "^3.1.7"
+  }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="30px" viewBox="0 0 26 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#AB9FE5" offset="0%"></stop>
+            <stop stop-color="#F6DCFC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header" transform="translate(-22.000000, -20.000000)">
+            <g id="logo" transform="translate(20.000000, 20.000000)">
+                <polyline id="Fill-1" fill="#8597FC" points="14.9826081 0 2 7.5 2 22.5 14.9826081 30 27.9652162 22.5 27.9652162 7.5 14.9826081 0"></polyline>
+                <polyline id="Fill-2" fill="#A1AEF9" points="14.9826081 15 14.9826081 0 2 7.5 14.9826081 15"></polyline>
+                <polyline id="Fill-4" fill="#5E77FF" points="2 7.5 2 22.5 14.9826081 15 2 7.5"></polyline>
+                <polyline id="Fill-5" fill="#8597FC" points="27.9652162 7.5 27.9652162 7.5 14.9826081 15 27.9652162 22.5 27.9652162 7.5"></polyline>
+                <polyline id="Fill-6" fill="#4059E1" points="14.9826081 15 2 22.5 14.9826081 30 14.9826081 15"></polyline>
+                <polyline id="Fill-7" fill="#5E77FF" points="14.9826081 30 27.9652162 22.5 14.9826081 15 14.9826081 30"></polyline>
+                <polyline id="Fill-8" fill="#8597FC" points="22.3095135 19.2326953 22.3095135 10.7673047 14.9826081 6.53455078 7.6557027 10.7673047 7.6557027 19.2326953 14.9826081 23.4654492 22.3095135 19.2326953"></polyline>
+                <polyline id="Fill-9" fill="#A1AEF9" points="22.3095135 19.2326953 22.3095135 10.7673047 14.9826081 6.53455078 14.9826081 23.4654492 22.3095135 19.2326953"></polyline>
+                <polygon fill="url(#linearGradient-1)" opacity="0.251116071" points="15 0 27.9903811 7.5 27.9903811 22.5 15 30 2.00961894 22.5 2.00961894 7.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
