@@ -11,12 +11,15 @@
 
 class Controller {
 
-  public $route;
+  public $route , $action, $getAction;
   protected $viewVars = array();
   protected $isAjax = false;
   protected $env = 'development';
 
   public function filter() {
+    $this->action = (isset($_POST['action'])) ? strtolower($_POST['action']) : null;
+    $this->getAction = (isset($_GET['action'])) ? strtolower($_GET['action']) : null;
+
     if(basename(dirname(dirname(__FILE__))) != 'src') $this->env = 'production';
     if(!empty($_SERVER['HTTP_ACCEPT']) && strtolower($_SERVER['HTTP_ACCEPT']) == 'application/json') $this->isAjax = true;
 
